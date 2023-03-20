@@ -49,4 +49,4 @@ with open("data.csv","w",newline="",encoding="utf-8") as data:
     writer = csv.writer(data,delimiter=",")
     for row in transpose:
         writer.writerow(row)
-        print(row)
+        #print(row)
